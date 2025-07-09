@@ -23,12 +23,25 @@
             border-bottom-right-radius: 50% 10%;
         }
 
+        .main-content {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 1.5cm;
+            box-sizing: border-box;
+        }
+
+        @media (max-width: 600px) {
+            .main-content {
+                padding: 0 1cm;
+            }
+        }
+
         .intro {
             display: flex;
             flex-wrap: wrap;
             align-items: center;
             justify-content: space-between;
-            padding: 2rem;
+            padding: 2rem 0;
         }
 
         .intro-text {
@@ -41,7 +54,7 @@
             width: 300px;
             height: auto;
             border-radius: 1rem;
-            margin: 1rem;
+            margin: 1rem 1rem 1rem 2rem;
         }
 
         .section {
@@ -50,7 +63,7 @@
             border-top-left-radius: 50% 10%;
             border-bottom-left-radius: 50% 10%;
             border-bottom-right-radius: 50% 10%;
-            margin: 2rem;
+            margin: 2rem 0;
             padding: 2rem;
             font-size: 1.1rem;
         }
@@ -89,23 +102,45 @@
     Olya Spencer<br>Mezzo Soprano
 </header>
 
-<div class="intro">
-    <div class="intro-text">
-        <p>Welcome to the official page of <strong>Olya Spencer</strong>, a dynamic mezzo soprano with a rich, expressive voice and a love for telling stories through music. Olya's performances span centuries of operatic and vocal literature, from the elegant baroque of <strong>Handel</strong>, to the romantic expressiveness of <strong>Vaccai</strong>, and the dramatic flair of <strong>Britten</strong>.</p>
+<div class="main-content">
+
+    <div class="intro">
+        <div class="intro-text">
+            <p>Welcome to the official page of <strong>Olya Spencer</strong>, 
+                a UK-based mezzo soprano with a deep love for opera and a commitment to creating emotionally resonant performances. 
+                With years of classical training under world-renowned teachers and a wide-ranging repertoire, 
+                Olya brings a unique blend of stage presence, vocal richness, and artistic sincerity to every role she inhabits.</p>
+            <p>Olya has honed her voice under the guidance of distinguished vocal coaches and through opera schools. 
+            Her artistry is shaped by years of dedicated study in Italian bel canto, French and German baroque, Russian opera and lyrical/dramatic repertoire.
+    She has appeared in staged opera scenes and public performances in England and Italy. Her interpretations are known for their emotional depth and vocal finesse.</p>
+        </div>
+        <img class="vertical-photo" src="./public/img/20250526_170526.jpg" alt="Olya Spencer vertical portrait">
     </div>
-    <img class="vertical-photo" src="./public/img/20250526_170526.jpg" alt="Olya Spencer vertical portrait">
-</div>
 
-<div class="section">
-    <h2 style="font-family: 'Playfair Display', serif;">Repertoire Highlights</h2>
-    <ul>
-        <li>Handel – Ariodante, Rinaldo, Serse</li>
-        <li>Vaccai – Giulietta e Romeo, vocal method</li>
-        <li>Britten – The Rape of Lucretia, A Midsummer Night’s Dream</li>
-    </ul>
-</div>
+    <div class="section">
+        <h2 style="font-family: 'Playfair Display', serif;">Repertoire Highlights</h2>
+        <ul>
+            <p>Olya’s performance experience spans from baroque to romantic and modern opera, with roles such as:</p>
 
-<img class="portrait" src="./public/img/20250526_164827.jpg" alt="Olya Spencer headshot">
+            <li>Delilah in Samson and Delilah by Saint-Saëns</li>
+            <li>Romeo in Giulietta e Romeo by Vaccai</li>
+            <li>Charlotte in Werther by Massenet</li>
+            <li>Cesare and Cornelia in Giulio Cesare by Handel</li>
+            <li>Ruggiero in Alcina by Handel</li>
+            <li>Dido in Dido and Aeneas by Purcell</li>
+            <li>Nancy in Marta by Von Flotow</li>
+            <li>Dara in La Montagne noire by Augusta Holmès</li>
+            <li>Sea Witch in The Little Mermaid by Anne Boid</li>
+
+            <p></p>And many more across works by Rossini, Bach, Cavalli, Haydn, and others.<br>
+
+            She embraces both solo arias and ensemble roles, with a particular passion for the Italian and French baroque, and a deepening interest in Russian and German art song.</p>
+        </ul>
+    </div>
+
+    <img class="portrait" src="./public/img/20250526_164827.jpg" alt="Olya Spencer headshot">
+
+</div>
 
 <footer>
     <p>Contact Olya:</p>
